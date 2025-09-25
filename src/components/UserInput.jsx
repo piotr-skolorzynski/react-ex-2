@@ -15,14 +15,14 @@ const UserInput = ({ onChange, userInput }) => {
           />
         </p>
         <p>
-          <label htmlFor="annualInvestemnt">Annual Investment</label>
+          <label htmlFor="annualInvestment">Annual Investment</label>
           <input
             type="number"
-            id="annualInvestemnt"
-            value={userInput.annualInvestemnt}
+            id="annualInvestment"
+            value={userInput.annualInvestment}
             required
             onChange={(event) =>
-              onChange("annualInvestemnt", event.target.value)
+              onChange("annualInvestment", event.target.value)
             }
           />
         </p>
